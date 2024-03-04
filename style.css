@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Dogways;
+    src: url(./config/fonts/Dogways.ttf);
+}
+
+@font-face {
+    font-family: Cream;
+    src: url(./config/fonts/cream-DEMO.ttf);
+}
+
+.donationBody {
+    width: 350px;
+    text-align: center;
+    /* background-color: gray; */
+    margin: auto
+}
+
+.faq {
+    text-align: left;
+
+}
+
+body {
+    font-family: Cream;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: greenyellow;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    font-size: 10pt;
+}
