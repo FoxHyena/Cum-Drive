@@ -1,15 +1,10 @@
 @font-face {
-    font-family: Dogways;
-    src: url(./config/fonts/Dogways.ttf);
-}
-
-@font-face {
     font-family: Cream;
     src: url(./config/fonts/cream-DEMO.ttf);
 }
 
 .donationBody {
-    width: 350px;
+    width: 60%;
     text-align: center;
     /* background-color: gray; */
     margin: auto
@@ -20,9 +15,14 @@
 
 }
 
+.cumDrive {
+    width: 250px;
+    margin: auto;
+}
+
 body {
     font-family: Cream;
-    background-color: black;
+    background-color: #141414;
     color: white;
 }
 
@@ -34,4 +34,16 @@ footer {
     margin: auto;
     text-align: center;
     font-size: 10pt;
+}
+
+hr {
+    width: 80%;
+    size: 2;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .donationBody {
+        width: 350px;
+    }
 }
