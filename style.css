@@ -42,8 +42,73 @@ hr {
     color: white;
 }
 
+p {
+    font-size: 1.1em;
+}
+
 @media only screen and (max-width: 600px) {
     .donationBody {
         width: 350px;
     }
+}
+
+.indexItem {
+    list-style: none;
+    background-color: gray;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    width: 250pt;
+    font-size: x-large;
+}
+
+.contactList {
+    padding: 0;
+}
+
+.indexLink {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.indexLogo {
+    height: 30pt;
+}
+
+.indexText {
+    width: 80%;
+}
+
+.datawellNumber {
+    font-size: 3em;
+}
+
+.datawellContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+    flex-wrap: wrap;
+    gap: 20px 25px;
+}
+
+.datawellText {
+    width: 100px;
+    text-align: center;
+}
+
+.datawell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
